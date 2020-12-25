@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome CSS Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- CSS Style Link -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- JS File Link -->
+    <script src="js/app.js" defer></script>
+    <!-- Site Title -->
+    <title>Analog Clock with Vanilla JS</title>
+</head>
+
+<body>
+    <!-- Mode Button -->
+    <div class="toggle-container">
+        <input type="checkbox" id="mode" class="mode">
+        <label for="mode" class="label">
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+            <i class="far fa-lightbulb"></i>
+        </label>
+    </div>
+
+    <div class="schedule">
+        <!-- Analog Clock -->
+        <div class="clock">
+            <div class="hand">
+                <div class="hour" id="hour"></div>
+            </div>
+            <div class="hand">
+                <div class="min" id="min"></div>
+            </div>
+            <div class="hand">
+                <div class="sec" id="sec"></div>
+            </div>
+            <!-- Clock Numbers -->
+            <div class="num num1">
+                <div>1</div>
+            </div>
+            <div class="num num2">
+                <div>2</div>
+            </div>
+            <div class="num num3">
+                <div>3</div>
+            </div>
+            <div class="num num4">
+                <div>4</div>
+            </div>
+            <div class="num num5">
+                <div>5</div>
+            </div>
+            <div class="num num6">
+                <div>6</div>
+            </div>
+            <div class="num num7">
+                <div>7</div>
+            </div>
+            <div class="num num8">
+                <div>8</div>
+            </div>
+            <div class="num num9">
+                <div>9</div>
+            </div>
+            <div class="num num10">
+                <div>10</div>
+            </div>
+            <div class="num num11">
+                <div>11</div>
+            </div>
+            <div class="num num12">
+                <div>12</div>
+            </div>
+        </div>
+
+        <!-- Digital Clock and Date -->
+        <div class="time"></div>
+        <div class="date"></div>
+    </div>
+
+</body>
+
+</html>
