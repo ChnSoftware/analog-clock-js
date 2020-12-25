@@ -132,7 +132,7 @@ i {
 	border-radius: 50%;
 	height: 15px;
 	width: 15px;
-	z-index: 100;
+	z-index: 5;
 	transition: all 300ms ease-in;
 }
 .hand {
